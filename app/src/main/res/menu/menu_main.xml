@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- we can give item id like give destination or action ids of fragment
+        but for menu destination id recommended ..action id follow the nagivation way you already defined like action_A_fragment_to_B
+    -->
+    <item
+        android:title="@string/home"
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_home"/>
+    <item
+        android:title="@string/student"
+        android:icon="@drawable/ic_person"
+        android:id="@+id/studentFragment"/>
+
+</menu>
